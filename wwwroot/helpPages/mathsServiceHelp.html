@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Service Help</title>
+</head>
+<body>
+    <h1>Service /api/maths - Documentation</h1>
+    <h2>Liste de query string possible</h2>
+
+    <div>
+        <h3>L'addition</h3>
+        <p>Exemple d'utilisation : ?op=+&x=4&y=4</p>
+        <p>Retourne : {"op":"+", "x":nombre, "y":nombre, "value":4 + 4}</p>
+    </div>
+    <div>
+        <h3>La soustraction</h3>
+        <p>Exemple d'utilisation : ?op=-&x=4&y=4</p>
+        <p>Retourne : {"op":"-", "x":nombre, "y":nombre, "value":4 - 4}</p>
+    </div>
+    <div>
+        <h3>La multiplication</h3>
+        <p>Exemple d'utilisation : ?op=*9&x=4&y=4</p>
+        <p>Retourne : {"op":"+", "x":nombre, "y":nombre, "value":4 * 4}</p>
+    </div>
+    <div>
+        <h3>Le modulo</h3>
+        <p>Exemple d'utilisation : ?op=%&x=4&y=4</p>
+        <p>Retourne : {"op":"+", "x":nombre, "y":nombre, "value":4 % 4}</p>
+    </div>
+    <div>
+        <h3>Le factoriel</h3>
+        <p>Exemple d'utilisation : ?op=!&x=4</p>
+        <p>Retourne : {"op":"+", "x":nombre, "value":4!}</p>
+    </div>
+    <div>
+        <h3>Le nombre premier</h3>
+        <p>Exemple d'utilisation : ?op=p&x=nombre</p>
+        <p>Retourne : {"op":"+", "x":nombre, "value":vrai si le nombre est un nombre premier}</p>
+    </div>
+    <div>
+        <h3>La valeur du <em>n</em>ième nombre premier</h3>
+        <p>Exemple d'utilisation : ?op=np&x=nombre</p>
+        <p>Retourne : {"op":"+", "x":nombre, "value":le <em>n</em>ième nombre premier}</p>
+    </div>
+</body>
+</html>
